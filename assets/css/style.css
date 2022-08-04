@@ -867,6 +867,21 @@ header.style1 {
   background-color: #333;
   color: #fff;
 }
+@media screen and (max-width: 880px) {
+  .logo_phone{
+    visibility: hidden;
+  }
+  
+}
+
+@media screen and (max-width: 580px) {
+ 
+  .service-desk{
+  
+    padding-top: 0px !important;
+    margin-top: -200px;
+  }
+}
 .menu-wrap {
   position: fixed;
   left: 0;
